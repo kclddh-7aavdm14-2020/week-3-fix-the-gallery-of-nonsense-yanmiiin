@@ -1,0 +1,26 @@
+/* This is the CSS stylesheet. It sets how things should look.
+Feel free to play with it!*/
+
+@font-face {
+    font-family: 'lockergnome';
+    /* Can you fix the url to find the ttf font file? */
+    /* The following line should be something like: */
+    /* src: url('location/of/font.ttf'); */
+    src: url('');
+}
+
+* {
+    font-family: 'lockergnome';
+    background-color: beige;
+    font-size: 1.1em;
+}
+
+body {
+    max-width: 1024px;
+    margin: 0 auto; 
+}
+
+h1 {    
+    font-size: 3em;
+    color: pink;
+}
